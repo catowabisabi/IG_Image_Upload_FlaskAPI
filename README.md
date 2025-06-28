@@ -42,8 +42,8 @@
 
 #### 🔧 環境變數設定
 ```yaml
-IG_EMAIL: aiko2nd@gmail.com
-IG_PASSWORD: Abc123456.
+IG_EMAIL: example@example.com
+IG_PASSWORD: IG_Password
 ```
 
 #### 🌐 網路配置
