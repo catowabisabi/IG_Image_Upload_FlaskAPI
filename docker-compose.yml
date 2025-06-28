@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  instagram-uploader:
+    build: .
+    container_name: instagram-uploader
+    ports:
+      - "5005:5005"
+    volumes:
+      - ./uploads:/app/uploads
+    restart: unless-stopped
+    networks:
+      - instagram-net
+
+networks:
+  instagram-net:
+    driver: bridge 
